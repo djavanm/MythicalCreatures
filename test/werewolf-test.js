@@ -96,6 +96,7 @@ describe('Werewolf', function() {
     var werewolf = new Werewolf('Bob');
     var victim = new Victim('Ted');
     werewolf.eat(victim);
+    assert.equal(victim.alive, true)
     // your code here
   });
 });
